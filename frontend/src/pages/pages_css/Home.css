@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.bannersec{
+    height: 90vh;
+    width: 100vw;
+    padding-top:2rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius:0% 100% 0% 100% / 45% 0% 100% 55% ;
+    background: rgb(153,212,255);
+    background: -moz-linear-gradient(16deg, rgba(153,212,255,1) 0%, rgba(109,187,255,1) 21%, rgba(29,147,255,1) 100%);
+    background: -webkit-linear-gradient(16deg, rgba(153,212,255,1) 0%, rgba(109,187,255,1) 21%, rgba(29,147,255,1) 100%);
+    background: linear-gradient(16deg, rgba(153,212,255,1) 0%, rgba(109,187,255,1) 21%, rgba(29,147,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#99d4ff",endColorstr="#1d93ff",GradientType=1); 
+}
+.best-seller--books{
+    height: 100vh;
+    width: 100%;
+}
+.best-seller--books h1{
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Luckiest Guy', cursive;
+}
+.trending-books--text h3{
+    color: white;
+    font-weight: bold;
+}
+#best-books{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3rem;
+}
+#best-books .books{
+    height: 25rem;
+    width: 20rem;
+    background-color: red;
+}
+#favorite-books{
+    height: 70vh;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+#favorite-books{
+    display: flex;
+    padding: 5rem;
+    justify-content: space-around;
+}
+.book-list--active-user{
+    display: flex;
+    flex-direction: column;
+}
+.book-list--active-user h1{
+    font-weight: 700;
+}
+.book-list--active-user-num{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.book-list--active-user button{
+    padding: 1rem 2rem;
+    width: 50%;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background-color: #1D93FF;
+    margin-top: 3rem;
+}
+.book-list--active-user button a{
+    text-decoration: none;
+    color: #fff;
+}
+.book-list--active-user-num h4{
+    font-weight: 400;
+    font-size: small;
+}
+.info{
+    margin-right: 2rem;
+}
+#national-book-award{
+    height: 50vh;
+    width: 100%;
+    background-color: #00A3FF;
+    position: relative;
+}
+#national-book-award h1{
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    transform: translate(0%, 60%);
+    font-size: 3rem;
+    color: #fff;
+}
